@@ -41,12 +41,17 @@ button{
 }
 
 /* Creazione primo contenitore */
-.container-a{
+.cont{
     min-height: 600px; 
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    
+
+}
+
+.cont-a{
+    background-color: rgb(157, 163, 39);
 
 }
 
@@ -55,5 +60,50 @@ button{
     background-color: antiquewhite;
     height: 400px;
     border: 2px solid white;
+
+}
+
+/* Parte Centrale */
+.cont-b{
+    background-color: aquamarine;
+}
+
+.cont-c{
+    background-color: antiquewhite;
+}
+
+.cont-d{
+    background-color: blueviolet;
+}
+
+.info{
+    width: 80%;
+    height: 400px;    /* andremo a togliere quando riempiremo */
+    background-color: #3161E0;
+    display: flex;
+}
+
+.big-box{
+    flex-basis: 60%;
+    background-color: white;
+    border: 2px dashed black;
+}
+
+.little-box{
+    flex-basis: 40%;
+    background-color: grey;
+    border: 2px dashed black;
+}
+
+.order{
+    flex-direction: row-reverse;
+}
+
+.cont-e{
+    min-height: 1200px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
 
 }
